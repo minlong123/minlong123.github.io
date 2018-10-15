@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>测试用例</title>
+    <meta charset="utf-8">
+    <style type="text/css">
+        *{margin:0;padding:0;}
+        body{position:relative;width:100%;height:100%;}
+        .bb{position:absolute;left:0;top:0;height:140px;background:rgba(0,0,0,0.5);width:100%;z-index:9999;}
+        .bbbbb{padding-top:140px;height:100%;width:100%;position:absolute;top:0;}
+
+        .box{height:100%;width:100%;background:blue;position:absolute;left:0;top:0;}
+        .box1{height:400px;width:500px;background:red;color:#fff;position:absolute; left:0;right:0;margin:auto; top:50%;
+    -webkit-transform: translate3d(0,-50%,0);
+    transform: translate3d(0,-50%,0);}
+        .bbbbbb{position:absolute;margin-top:140px;width:100%;}
+
+    </style>
+</head>
+<body>
+    <!-- 关于垂直居中问题的解决，无论屏幕大小，始终保持红色区域的内容是居中状态的，除非屏幕内容高度大于父类盒子的高度，才会溢出。
+    解决方案：给中间的内容再套一层。通过js监听窗口的变化。给类名bbbbbb设置减去导航的动态的高度。
+     -->
+    <div class="bb"></div>
+    <div class="box">
+        <div class="bbbbbb">
+            <div class="box1">
+                <div style="margin-top:50px;color:#fff;font-weight:bold;">刷粉丝</div>
+                <div style="margin-top:50px;color:#fff;font-weight:bold;">司法廉洁的司法上了飞机是</div>
+                <div style="margin-top:50px;color:#fff;font-weight:bold;">连接符违反了就上的浪费乐山大佛乐山大佛皮肤范德萨少量的上的浪费竭斯底里防水堵漏</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(function(){
+            $(window).resize(function(){
+                hei();
+            })
+            function hei(){
+                $('.box').css('height',$(window).height());
+                $('.bbbbbb').css('height',$(window).height()-140);
+            }
+            hei();
+            
+        })
+    </script>
+</body>
+</html>

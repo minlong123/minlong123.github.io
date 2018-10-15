@@ -1,0 +1,155 @@
+@media screen and (min-width:1200px){
+    .elite-con>.container{
+      width:1200px;
+    }
+  }
+  .elite-con>.container{padding:82px 0 73px;}
+  .elite-con1{color: #333333;font-size: 32px;}
+  .elite-con2{color: #8a8a8a;font-size: 18px;}
+  .elite-con3{margin-top:47px;text-indent:2em;color: #777777;line-height:25px;}
+  .elite-con4{margin-top:47px;text-indent:2em;color: #777777;line-height:25px;}
+  .elite-cons{background:url('../images/elites1.png') no-repeat center;width:100%;height:813px;}
+  .elite-cons>.container{padding-top:135px;}
+  .elite-one{color: #333333;font-size: 32px;}
+  .elite-two{color: #8a8a8a;font-size: 18px;}
+  .elite-three{height:291px;width:100%;position:relative;margin-top:72px;}
+  .elite-three>.sp-lt{position:absolute;left:0;top:50%;color:#fff;font-size:20px;cursor:pointer;z-index:999999;}
+  .elite-three>.sp-rt{position:absolute;right:0;top:50%;color:#fff;font-size:20px;cursor:pointer;z-index:999999;}
+  .elite-four{width:890px;margin:0 auto;overflow: hidden;}
+  .elite-four .swiper-paginations{width:auto;display:table;margin:20px auto;}
+  .elite-four-lt{float:left;width:291px;height:291px;}
+  .elite-four-rt{float:right;width:561px;position: relative;
+    top: 50%;
+    margin-top: -84px;}
+   .elite-four-rt .elite-four-name{color: #d60024;font-size: 26px;}
+   .elite-four-rt .elite-four-names{color: #959595;letter-spacing: 1px;font-size: 20px;}
+   .elite-four-rt .elite-four-desc{color: #777777;font-size: 18px;line-height:25px;padding-top:27px;}
+   .elite-ul{width:300%;height:100%;-webkit-transition:2s;transition:2s;}
+   .elite-li{width:890px;margin:0 auto;height:291px;float:left;}
+
+  .int-ban{width:100%;padding-top:85px;}
+
+.elit-per {
+  padding: 0.37rem 0.2rem 0.35rem;
+  position: relative;
+}
+.elit-per .eli_lt {
+  position: absolute;
+  left:20px;
+  top: 30%;
+  color: #8a8a8a;
+  font-size: 0.3rem;
+  z-index: 999999;
+}
+.elit-per .eli_rt {
+  position: absolute;
+  right:20px;
+  top: 30%;
+  color: #8a8a8a;
+  font-size: 0.3rem;
+  z-index: 999999;
+}
+.elit-per .elit-name {
+  color: #d60024;
+  font-size: 0.27rem;
+  margin-top: 0.37rem;
+}
+.elit-per .elit-names {
+  color: #8a8a8a;
+  font-size: 0.24rem;
+  margin-top: 0.12rem;
+}
+
+      .elit-pers {
+  padding: 0.37rem 0.2rem 0.35rem;
+  position: relative;
+top: 50%;
+    transform: translateY(-50%);-webkit-transform: translateY(-50%);
+}
+.elit-pers .eli_lt {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  color: #8a8a8a;
+  font-size: 0.3rem;padding-left:20px;font-size:0.25rem;z-index:99999999;
+}
+.elit-pers .eli_rt {
+  position: absolute;
+  right: 0;
+  top:50%;
+  color: #8a8a8a;
+  font-size: 0.3rem;padding-right:0.2rem;font-size:0.25rem;z-index:99999999;
+}
+.elit-pers .elit-name {
+  color: #d60024;
+  font-size: 0.27rem;
+  margin-top: 0.37rem;
+}
+.elit-pers .elit-names {
+  color: #8a8a8a;
+  font-size: 0.24rem;
+  margin-top: 0.12rem;
+}
+
+.int-mob {
+  width: 100%;
+  position: absolute;
+  top: 1.4rem;
+  background-color: #ffffff;
+}
+.int-mob .int-mob-con {
+  padding: 0.68rem 0.2rem 0.63rem;
+  background: #fff;
+}
+.int-mob .int-mob-con .int-mob-sml {
+  width: 0.05rem;
+  height: 0.42rem;
+  background-color: #d60024;
+  display: inline-block;
+}
+.int-mob .int-mob-con .int-mob-font {
+  margin-left: 0.43rem;
+  margin-top: -0.12rem;
+}
+.int-mob .int-mob-con .int-mob-font div:first-child {
+  font-size: 0.44rem;
+  color: #37434c;
+}
+.int-mob .int-mob-con .int-mob-fontt {
+  color: #8a8a8a;
+  font-size: 0.25rem;
+  margin-left: 0.48rem;
+}
+.int-mob .int-mob-con .int-mob-img {
+  padding-top: 0.42rem;
+}
+.int-mob .int-mob-con .int-mob-fonts {
+  padding-top: 0.45rem;
+  text-indent: 2em;
+  color: #3c3e42;
+  font-size: 0.27rem;
+  line-height: 0.45rem;
+}
+.int-mob .int-mob-con .int-mob-fontss{
+  padding-top:0;
+}
+.int-mob .int-mob-con .int-titles {
+  margin-top: 0.73rem;
+}
+.int-mob .int-mob-con .int-fot-font {
+  padding-left: 0.45rem;
+}
+.int-mob .int-mob-con .int-fot-font .int-fot-fonts {
+  padding-top: 0.41rem;
+}
+.int-mob .int-mob-con .int-fot-font .int-fot-fonts div:first-child {
+  color: #3c3e42;
+  font-size: 0.27rem;
+}
+.int-mob .int-mob-con .int-fot-font .int-fot-fonts div:first-child + div {
+  color: #8a8a8a;
+  font-size: 0.27rem;
+  margin-top: 0.15rem;
+}
+.elit-img{  width:4.67rem;
+  height: 3.68rem;}
