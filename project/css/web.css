@@ -593,5 +593,35 @@
     .min-webimte .min-webimte-con .min-webimte-eig{
         width:100%;
         padding:0.38rem 0 0.28rem;
-        background-color: #000869;
+        background-color: #000869;color:#FFF;
     }
+
+
+@media screen and (max-width:768px){
+  .min-webimte .min-webimte-con .min-webimte-eig>div:first-child{
+  font-size:0.14rem;
+  }
+  .min-webimte .min-webimte-con .min-webimte-eig>div:first-child+div{
+    font-size:0.14rem;
+  }
+  .min-webimte .min-webimte-con .min-webimte-eig>div:first-child+div+div{
+    width:5.76rem;height: 2px;border: solid 1px #ffffff;margin:0.16rem auto
+  }
+  .min-webimte .min-webimte-con .min-webimte-eig>div:first-child+div+div+div{
+    font-size:0.14rem;
+  }
+}
+@media screen and (min-width:768px){
+  .min-webimte .min-webimte-con .min-webimte-eig>div:first-child{
+  font-size:14px;
+  }
+  .min-webimte .min-webimte-con .min-webimte-eig>div:first-child+div{
+    font-size:14px;
+  }
+  .min-webimte .min-webimte-con .min-webimte-eig>div:first-child+div+div{
+    width:576px;height: 2px;border: solid 1px #ffffff;margin:16px auto;
+  }
+  .min-webimte .min-webimte-con .min-webimte-eig>div:first-child+div+div+div{
+    font-size:14px;
+  }
+}
