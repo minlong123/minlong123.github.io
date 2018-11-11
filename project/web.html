@@ -22,10 +22,10 @@
   .min-webimte{width:100%;}
 
   @media screen and (min-width:980px){
-    .min-webimte .min-webimte-con{width:980px;margin:0 auto;background:#fff;}
+    .min-webimte .min-webimte-con{width:980px;margin:0 auto;background:#fff;position:relative;}
   }
   @media screen and (max-width:980px){
-      .min-webimte .min-webimte-con{width:100%;margin:0 auto;background:#fff;overflow:hidden;}
+      .min-webimte .min-webimte-con{width:100%;margin:0 auto;background:#fff;overflow:hidden;position:relative;}
   }
 
   .min-webimte .min-webimte-con .min-webimte-cons{
@@ -347,13 +347,13 @@
     margin-top:0;
    }
    .min-webimte .min-webimte-con .min-webimte-fouss .row .min-webimte-fousss{
-    margin-top:0.5rem;height:1.5rem;padding-left:0;background-color: #62a4d4;text-align: center;padding:0.1rem 0;
+    margin-top:0.5rem;height:auto;padding-left:0;background-color: #62a4d4;text-align: center;padding:0.1rem 0;
    }
    .min-webimte .min-webimte-con .min-webimte-fouss .row .min-webimte-fousss>div:first-child+div{
-    width:auto;color: #fefefe;font-size:0.14rem;margin-top:0.18rem;line-height:0.24rem;padding:0 0.2rem;
+    width:auto;color: #fefefe;font-size:14px;margin-top:0.18rem;padding:0 0.2rem;
    }
    .min-webimte .min-webimte-con .min-webimte-fouss .row .min-webimte-fousss>div:first-child{
-    color:#fefefe;font-size:0.24rem;margin-top:0.1rem;
+    color:#fefefe;font-size:24px;margin-top:0.1rem;
    }
 
 }
@@ -414,18 +414,18 @@
 
 
   @media screen and (max-width:768px){
-    .min-webimte-fou .min-webimte-fiv{width:100%;height:4.97rem;}
+    .min-webimte-fou .min-webimte-fiv{width:100%;height:7.97rem;}
       .min-webimte-fou .min-webimte-fiv .min-webimte-fivs{
         margin:0.8rem 0;
      }
     .min-webimte-fou .min-webimte-fiv .min-webimte-fivss{
-      height:1.5rem;padding-left:0;background-color: #62a4d4;text-align: center;padding:0.1rem 0;color:#FFF;
+      height:auto;padding-left:0;background-color: #62a4d4;text-align: center;padding:0.1rem 0;color:#FFF;
      }
     .min-webimte-fou .min-webimte-fiv .min-webimte-fivss>div:first-child+div{
-      font-size:0.14rem;line-height:0.24rem;width:auto;margin-top:0.18rem;color:#FFF;padding:0 0.2rem;
+      font-size:14px;width:auto;margin-top:0.18rem;color:#FFF;padding:0 0.2rem;
      }
     .min-webimte-fou .min-webimte-fiv .min-webimte-fivss>div:first-child{
-      font-size:0.24rem;
+      font-size:24px;
     }
 
   }
@@ -500,7 +500,7 @@
         width:100%!important;display: inline-block;
       }
       .min-webimte .min-webimte-con .min-webimte-six{
-        margin-top:2.5rem!important;
+        margin-top:0.5rem!important;
       }
 
     }
@@ -633,17 +633,104 @@
 <style type="text/css">
     .min-webimte .min-webimte-con .min-webimte-eig{
         width:100%;
-  padding:0.38rem 0 0.28rem;
-  background-color: #000869;
+        padding:0.38rem 0 0.28rem;
+        background-color: #000869;
     }
 </style>
       <div class="min-webimte-eig" style="color:#FFF">
-          <div class="text-center" style="font-size:0.14rem;">地址：湖北宜昌西陵发展大道97号&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;联系方式：0717-6340809</div>
+          <div class="text-center" style="font-size:0.14rem;">地址：湖北宜昌西陵发展大道97号&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hidden-xs">联系方式：0717-6340809</span></div>
+          <div style="font-size:0.14rem;" class="visible-xs text-center">联系方式：0717-6340809</div>
 
           <div class="text-center" style="width:5.76rem;height: 2px;border: solid 1px #ffffff;margin:0.16rem auto"></div>
 
           <div class="text-center" style="font-size:0.14rem;">Copyright © 宜昌世阳 版权所有 鄂ICP备17010155号-1<span class="hidden-xs">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="imagess/web31.png" class="img-responsive" style="display:inline-block;position:relative;top:-1px;" />&nbsp;&nbsp;鄂ICP备17010155号-3</span></div>
       </div>
+
+      <style type="text/css">
+        .min-webimte .min-webimte-con .min-webimte-msg{
+            position:fixed;top:0;bottom:0;left:0;margin:auto; width: 308px;height: 558px;background:#4994ff;z-index:99999;
+        }
+        .min-webimte .min-webimte-con .min-webimte-msg .min-webimte-msgs{
+            width:230px;margin:0 auto;text-align: center;
+        }
+        .min-webimte .min-webimte-con .min-webimte-msg .min-webimte-msgs .min-webimte-msgssss>div:first-child{
+            margin-top:16px;font-size:14px;
+        }
+        .min-webimte .min-webimte-con .min-webimte-msg .min-webimte-msgs .min-webimte-msgssss>div:first-child+div+div{
+            margin-top:7px;font-size:14px;
+        }
+        .min-webimte .min-webimte-con .min-webimte-msg .min-webimte-msgs .min-webimte-msgssss>div:first-child+div+div+div{
+            margin-top:18px;
+        }
+        .min-webimte .min-webimte-con .min-webimte-msg .min-webimte-msgs .min-webimte-msgss{
+            color: #fefefe;font-size: 18px;margin-top:15px;
+        } 
+        .min-webimte .min-webimte-con .min-webimte-msg .min-webimte-msgs .min-webimte-msgss span{
+           color: #ffffff;font-size:24px;
+        }
+        .min-webimte .min-webimte-con .min-webimte-msg form input{
+          border:none;
+          outline:none;
+          width: 200px;
+          height: 32px;
+          background-color: #ffffff;
+          border-radius: 2px;
+          margin-top:17px;padding-left:13px;
+        }
+        .min-webimte .min-webimte-con .min-webimte-msg form input::placeholder{
+          color: #1063d9;
+        }
+        .min-webimte .min-webimte-con .min-webimte-msg form .min-webimte-msgsss{
+  width: 144px;
+  height: 32px;
+  background-color: #1063d9;
+  border-radius: 2px;color: #ffffff;
+        }
+      .min-webimte .min-webimte-con .min-webimte-msg .min-webimte-msgs .min-webimte-wx{
+        margin-top:13px;
+      }
+
+      </style>
+
+<!-- 留言处 -->
+  <div class="min-webimte-msg hidden-xs">
+    <div class="min-webimte-msgs">
+
+      <div class="min-webimte-msgss">填写信息立即获得<span>&nbsp;&nbsp;大礼包</span></div>
+      <form>
+        <input type="text" placeholder="姓名：">
+        <input type="text" placeholder="电话：">
+        <input type="text" placeholder="邮箱：">
+        <input class="min-webimte-msgsss" type="submit" value="立即领取报价方案">
+      </form>
+
+      <div class="text-left min-webimte-msgssss" style="color:#FFF">
+          <div>联系方式：0717-6340809</div>
+          <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;13720266872 </div>
+          <div>地址：宜昌西陵发展大道97号</div>
+          <div><img src="imagess/qq.png" /><img src="imagess/qq.png" style="margin-left:23px;" /><span style="margin-left:14px;">QQ在线咨询</span></div>
+      </div>
+
+      <div class="min-webimte-wx text-center">
+        <div class="row">
+
+            <div class="col-xs-6">
+                <div><img src="imagess/web32.png" /></div>
+                <div style="color:#FFF;margin-top:12px;">设计总监</div>
+            </div>
+
+            <div class="col-xs-6">
+                <div><img src="imagess/web33.png" /></div>
+                <div style="color:#FFF;margin-top:12px;">技术总监</div>
+            </div>
+
+        </div>
+      </div>
+
+    </div>
+</div>
+
+
 
     </div>
 </div>
