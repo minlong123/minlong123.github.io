@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>首页</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+  <script type="text/javascript" src="js/common.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/iconfont.css">
+  <link rel="stylesheet" href="css/swiper.min.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="css/common.css">
+<!--[if lte IE 9]>
+  <script src="js/html5shiv.min.js"></script>
+  <script src="js/respond.min.js"></script>
+<![endif]-->
+</head>
+<body>
+<!-- 模态框 -->
+<div class="modd"></div>
+<!-- 手机端弹出框 -->
+<div class="home-dial visible-xs" data-names="dialgo">
+  <div class="dial-con">
+      <img src="img/logo2.png" class="center-block img-responsive" />
+      <img src="img/1422258610.jpg" class="center-block img-responsive img2s" />
+      <div class="text-center dial-con">扫一扫微信二维码&nbsp;<span class="glyphicon glyphicon-phone"></span></div>
+      <div class="dial-ul">
+        <ul class="dial-uls">
+          <li class="sel-static"><a href="home.html" class="dials">首页</a></li>
+          <li class="sel-static"><a href="home.html" class="dials">关于早康</a></li>
+          <li class="sel-static">
+            <a href="ltcy.html" class="dials">龙头产业</a>
+            <ol class="dial-ol">
+              <li><a href="case.html">企业简介</a></li>
+              <li><a href="case.html">企业文化</a></li>
+            </ol>
+          </li>
+
+          <li class="sel-static selct-hm">
+            <a href="javascript:void(0)" class="dials">早康•480鲜杞原液</a>
+            <ol class="dial-ol">
+              <li><a href="solve.html">早康•480鲜杞原液</a></li>
+              <li><a href="hxnl.html">东方活性能</a></li>
+              <li><a href="ddfgm.html">四大颠覆革命</a></li>
+              <li><a href="solve.html">鲜活体验</a></li>
+            </ol>
+          </li>
+
+          <li class="sel-static">
+            <a href="javascript:void(0)" class="dials">新闻中心</a>
+          </li>
+          <li class="sel-static">
+            <a href="javascript:void(0)" class="dials">招商</a>
+          </li>
+          <li class="sel-static"><a href="contact.html" class="dials">联系我们</a></li>
+          <li class="sel-static"><a href="home.html" class="dials">中国站</a></li>
+          <li class="sel-static"><a href="#" class="dials" title="还在建设中" data-toggle="tooltip" data-placement="top">英文站</a></li>
+
+        </ul>
+      </div>
+
+      <div class="center-block hm-dias">
+        <a target="_blank" href="tencent://Message/?Uin=282392329&websiteName=www.hbchryc.com=&Menu=yes"><span class="iconfont icon-qq"></span></a>
+        <a href="company_list.html"><span class="iconfont icon-xinlangweibo"></span></a>
+        <a href="javascript:void(0)"><span class="iconfont icon-weixin" data-toggle="tooltip" data-animation="true" title="<img src='img/1422258610.jpg' style='width:100px;padding:10px;'>" data-html="true" data-placement="top"></span></a>
+      </div>
+
+      <div class="text-center hm-dias1">高端定制,品牌设计</div>
+      <div class="text-center hm-dias1">技术支持 ：宜昌世阳</div>
+  </div>
+</div>
+
+
+<div class="one1">
+  <!-- 移动端导航 -->
+  <div class="visible-xs mobiles">
+    <div class="container">
+        <div class="rowss clearfix">
+          
+            <div class="f_left ho-logo">
+              <a href="#"><img src="img/logo1.png" class="img-responsive gf-logo" alt="手机端logo" /></a>
+            </div>
+            <div class="f_right ho-logo">
+              <a href="tel:13545376862" class="f_left"><img src="img/phone.png" class="img-responsive gf-menu gf-tele" /></a>
+
+              <a href="#overlayPanel" class="f_left"><img src="img/menu.png" class="img-responsive gf-menu menu-click" /></a>
+            </div>
+        </div>
+    </div>
+  </div>
+</div>
+
+
+
+  <!-- PC头部内容 -->
+  <div class="hm-nav hidden-xs">
+    <div class="container">
+      <div class="row hm-nav-r">
+        <div class="col-lg-6 col-md-6 col-sm-6 hidden-xs"><a href="home.html"><img src="img/logo.png" /></a></div>
+        <div class="col-lg-6 col-md-6 col-sm-6 hidden-xs hm-nav-rt">
+          <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-6 text-center">
+              <span class="iconfont icon-weixin"></span>
+              <p>官方微信</p>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 text-center">
+              <span class="iconfont icon-dianhua"></span>
+              <p>联系我们</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- PC头部内容 -->
+<!-- PC顶部导航 -->
+  <div class="hm-navs hidden-xs">
+    <div class="container">
+      <div class="col-lg-2 col-md-2 hidden-sm hidden-xs hm-navs-t"><img src="img/h1.png" /></div>
+      <div class="col-lg-8 col-md-10 col-sm-12 hidden-xs hm-navs-tt text-center">
+        <ul>
+          <li class="onenav">
+            <b class="glyphicon glyphicon-triangle-top" style="position: absolute;top:55px;left:53px;color:#FFF;"></b>
+            <a href="ltcy.html" class="one-chld one-chld-s">龙头产业<span>&nbsp;∨</span></a>
+            <ol class="hm-navs-ol">
+              <li class="hm-navs-olli"><a href="#">关于荟康&nbsp;<span>∨</span></a></li>
+              <li class="hm-navs-od">
+                <a href="#">企业简介</a>
+                <a href="#">企业文化</a>
+              </li>
+              <li class="hm-navs-olli"><a href="#">关于早康</a></li>
+            </ol>
+          </li>
+          <li class="onenav">
+            <b class="glyphicon glyphicon-triangle-top" style="position: absolute;top:55px;color:#FFF;"></b>
+            <a href="#" class="one-chld on-child-ss">早康•480鲜杞原液<span>&nbsp;∨</span></a>
+            <ol class="hm-navs-ols">
+              <li><a href="#">早康•480鲜杞原液</a></li>
+              <li><a href="hxnl.html">东方活性能</a></li>
+              <li><a href="ddfgm.html">四大颠覆革命</a></li>
+              <li><a href="#">鲜活体验</a></li>
+            </ol>
+          </li>
+          <li class="onenav"><a href="#" class="one-chld">新闻中心</a>
+            <b class="glyphicon glyphicon-triangle-top" style="position: absolute;top:55px;left:53px;color:#FFF;"></b>
+          </li>
+          <li class="onenav"><a href="#" class="one-chld">招商</a><b class="glyphicon glyphicon-triangle-top" style="position: absolute;top:55px;left:35px;color:#FFF;"></b></li>
+          <li class="onenav"><a href="#" class="one-chld">联系我们</a><b class="glyphicon glyphicon-triangle-top" style="position: absolute;top:55px;left:52px;color:#FFF;"></b></li>
+        </ul>
+      </div>
+      <div class="col-lg-2 col-md-2 col-sm-2 hidden-xs hm-navs-ttt text-right">
+        <a href="#">
+          <span class="iconfont icon-sousuo"></span>
+        </a>
+        <form>
+          <input type="text" placeholder="请输入……"  />
+          <button type="submit">搜索</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+<!-- PC顶部导航 -->
+
+
+
+
+<style type="text/css">
+	@media screen and (max-width:768px){
+		.hm-vide{margin-top:1.4rem;}
+	}
+	.hm-vide{width:100%;overflow:hidden;}
+</style>
+
+
+<!-- 播放的视频 -->
+	<div class="hm-vide">
+		<video src="mp4/123.mp4" height="100%" width="100%" controls autoplay=""></video>
+	</div> 
+<!-- 播放的视频 -->
+
+
+<style type="text/css">
+	.hm-fd{padding:45px 0 50px;background:#FFF;width:100%;}
+	@media screen and (min-width:970px){
+		.hm-fd .container{width:970px;text-align:left;color: #a62624;font-size:21px;}
+	}
+	@media screen and (max-width:768px){
+		.hm-fd .container{font-size:0.21rem!important;}
+	}
+	.hm-fd .container{text-align:left;color: #a62624;font-size:21px;}
+	.hm-fd .hm-fd-i{margin-top:37px;}
+</style>
+<!-- 一段首页的文字 -->
+	<div class="hm-fd">
+		<div class="container">
+
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hm-fd-f">
+				上海荟康健康管理有限公司是专注大健康领域的新兴企业，于2018年9月正式与“早康”中国驰名商标拥有者——早康枸杞股份公司达成全面战略合作，负责枸杞产业最新科技萃取的顶级产品“ 早康480 ”鲜杞原液的全国市场运营。通过全新的商业模式推广“早康480”鲜杞原液，让更多的人获得“健康，幸福，成功”的和谐人生！
+			</div>
+
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center hm-fd-i">
+				<img src="img/h2.png" class="img-responsive" style="margin:0 auto" />
+			</div>
+		</div>
+	</div>
+<!-- 一段首页的文字 -->
+
+
+
+<style type="text/css">
+	.hm-bn-one{box-shadow: 0px 0px 20px 0px 
+		rgba(9, 2, 4, 0.6);}
+</style>
+
+<div class="hm-bn-one"><img src="img/h3.png" class="img-responsive" /></div>
+<div class="hm-bn-one"><img src="img/h4.png" class="img-responsive" /></div>
+<div class="hm-bn-one"><img src="img/h5.png" class="img-responsive" /></div>
+<div class="hm-bn-one"><img src="img/h6.png" class="img-responsive" /></div>
+
+
+
+
+<style type="text/css">
+	@media screen and (max-width:768px){
+		.min-thrimte .min-thrimte-c .min-thrimte-cc .min-thrimte-ccc .min-thrimte-cccc .min-thrimte-m{
+	      display:block!important;
+	    }
+	    .min-thrimte-cc{margin-top:10px!important;}
+	}
+
+    .min-thrimte{width:100%;background:#23244d;padding:34px 0 45px;position:relative;overflow: hidden;}
+    .min-thrimte .min-thrimte-f{font-size:46px;color: #ffffff;}
+    .min-thrimte .min-thrimte-i{        position:relative;
+        margin-top:19px;color: #ffffff;font-size: 16px;}
+    .min-thrimte .min-thrimte-i img{        position:absolute;left: 0;
+    right: 0;
+    margin: 0 auto;}
+    .min-thrimte .min-thrimte-i span{        position:absolute;left: 0;
+    right: 0;
+    margin: -7px auto;}
+   .min-thrimte .min-thrimte-c{
+      margin-left:0;margin-right:0;position:relative;height:auto!important;top:0!important;
+   }
+  	.min-thrimte-cc{margin-top:30px;}
+    .min-thrimte .min-thrimte-c .min-thrimte-cc .min-thrimte-ccc{width:100%;height:100%;}
+    .min-thrimte .min-thrimte-c .min-thrimte-cc .min-thrimte-ccc .min-thrimte-cccc{width:100%;height:100%;position:relative;cursor:pointer;}
+    .min-thrimte .min-thrimte-c .min-thrimte-cc .min-thrimte-ccc .min-thrimte-cccc img{
+      max-width:100%;width:100%;display:block;
+    }
+
+    .min-thrimte .min-thrimte-c .min-thrimte-cc .min-thrimte-ccc .min-thrimte-cccc .min-thrimte-m{
+          width:100%;position:absolute;top:0;background:rgba(0,0,0,0.5);height:100%;color:#fff;font-size: 22px;display:none;
+    }
+    .min-thrimte .min-thrimte-c .min-thrimte-cc .min-thrimte-ccc .min-thrimte-cccc:hover .min-thrimte-m{
+      display:block;
+    }
+   
+    .min-thrimte .min-thrimte-c .min-thrimte-cc .min-thrimte-ccc .min-thrimte-cccc .min-thrimte-m .min-thrimte-mm{
+  height:100%;
+    vertical-align:middle;
+    display:table;
+    text-align:center;width:100%;
+    }
+    .min-thrimte .min-thrimte-c .min-thrimte-cc .min-thrimte-ccc .min-thrimte-cccc .min-thrimte-m  .min-thrimte-mm .min-thrimte-mmm{
+    vertical-align:middle;
+    position:relative;
+    display:table-cell;
+    }
+.min-thrimte .min-thrimte-c .min-thrimte-cc .min-thrimte-ccc .min-thrimte-cccc .min-thrimte-m  .min-thrimte-mm .min-thrimte-mmm span{
+  display:block;font-size:28px;
+}
+.min-thrimte .min-thrimte-c .min-thrimte-cc .min-thrimte-ccc .min-thrimte-cccc .min-thrimte-m  .min-thrimte-mm .min-thrimte-mmm span:first-child+span{
+  font-size:33px;margin-top:10px;
+}
+   
+
+</style>
+
+
+<div class="min-thrimte">
+    <div class="container-fluid" style="padding-left:0;padding-right:0">
+
+
+        <div class="row min-thrimte-c" style="overflow:hidden;">
+
+              <div class="col-md-3 col-lg-3 col-sm-6 min-thrimte-cc">
+                  <div class="min-thrimte-ccc">
+
+                      <div class="min-thrimte-cccc">
+                          <img src="img/h7.png" />
+
+                          <div class="min-thrimte-m">
+                              <div class="min-thrimte-mm">
+                                  <div class="min-thrimte-mmm">
+
+                                     <div style="color: #ffffff;font-size: 20px;letter-spacing: 2px;">发现</div>
+                                     <div style="color: #ffffff;letter-spacing: 2px;font-size: 14px;margin-top:10px;">人体鲜活的秘密</div>
+                                     <div style="width: 57px;height: 2px;background-color: #ffffff;margin:0 auto;margin-top:22px;"></div>
+                                     <a href="#" style="width: 102px;height: 25px;display:block;
+	border: solid 1px #ffffff;margin:0 auto;font-size:13px;line-height:25px;letter-spacing: 1px;margin-top:40px;color:#FFF">查看详情→</a>
+
+                                  </div>
+                                  <span class="min-pads"></span>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+
+
+              <div class="col-md-3 col-lg-3 col-sm-6 min-thrimte-cc">
+                  <div class="min-thrimte-ccc">
+                      <div class="min-thrimte-cccc">
+                          <img src="img/h8.png" />
+                          <div class="min-thrimte-m">
+                              <div class="min-thrimte-mm">
+                                  <div class="min-thrimte-mmm">
+                                     <div style="color: #ffffff;font-size: 20px;letter-spacing: 2px;">颠覆</div>
+                                     <div style="color: #ffffff;letter-spacing: 2px;font-size: 14px;margin-top:10px;">中国传统养生习惯</div>
+                                     <div style="width: 57px;height: 2px;background-color: #ffffff;margin:0 auto;margin-top:22px;"></div>
+                                     <a href="#" style="width: 102px;height: 25px;display:block;
+	border: solid 1px #ffffff;margin:0 auto;font-size:13px;line-height:25px;letter-spacing: 1px;margin-top:40px;color:#FFF">查看详情→</a>
+                                  </div>
+                                  <span class="min-pads"></span>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+
+
+              <div class="col-md-3 col-lg-3 col-sm-6 min-thrimte-cc">
+                  <div class="min-thrimte-ccc">
+                      <div class="min-thrimte-cccc">
+                          <img src="img/h9.png" />
+
+                          <div class="min-thrimte-m">
+                              <div class="min-thrimte-mm">
+                                  <div class="min-thrimte-mmm">
+                                     <div style="color: #ffffff;font-size: 20px;letter-spacing: 2px;">开启</div>
+                                     <div style="color: #ffffff;letter-spacing: 2px;font-size: 14px;margin-top:10px;">高效鲜活生活方式</div>
+                                     <div style="width: 57px;height: 2px;background-color: #ffffff;margin:0 auto;margin-top:22px;"></div>
+                                     <a href="#" style="width: 102px;height: 25px;display:block;
+	border: solid 1px #ffffff;margin:0 auto;font-size:13px;line-height:25px;letter-spacing: 1px;margin-top:40px;color:#FFF">查看详情→</a>
+                                  </div>
+                                  <span class="min-pads"></span>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+
+
+              <div class="col-md-3 col-lg-3 col-sm-6 min-thrimte-cc">
+                  <div class="min-thrimte-ccc">
+                      <div class="min-thrimte-cccc">
+                          <img src="img/h10.png" />
+                          <div class="min-thrimte-m">
+                              <div class="min-thrimte-mm">
+                                  <div class="min-thrimte-mmm">
+                                     <div style="color: #ffffff;font-size: 20px;letter-spacing: 2px;">领创</div>
+                                     <div style="color: #ffffff;letter-spacing: 2px;font-size: 14px;margin-top:10px;">原液产业的龙头标杆</div>
+                                     <div style="width: 57px;height: 2px;background-color: #ffffff;margin:0 auto;margin-top:22px;"></div>
+                                     <a href="#" style="width: 102px;height: 25px;display:block;
+	border: solid 1px #ffffff;margin:0 auto;font-size:13px;line-height:25px;letter-spacing: 1px;margin-top:40px;color:#FFF">查看详情→</a>
+                                  </div>
+                                  <span class="min-pads"></span>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+<!-- 底部 -->
+
+<style type="text/css">
+	.hm-foo{
+		display:block;
+		margin:0 auto;
+		margin-top:48px;
+		margin-bottom:35px;
+		width: 192px;
+		height: 48px;
+		background-color:#a62624;
+		border-radius: 23px;font-size: 23px;line-height: 48px;text-align:center;color:#FFF!important;
+	}
+</style>
+
+<a href="#" class="hm-foo">
+	<span style="font-size:27px;" class="iconfont icon-gouwuche"></span>
+	<span>即刻购买</span>
+</a>
+
+
+<style type="text/css">
+	.hm-foos .hm-foos-con>a{margin-right:47px;letter-spacing: 2px;font-size:29px;display:inline-block;padding-bottom:5px;}
+	.hm-foos .hm-foos-con>a>.hov-boo{color: #a62624;display:block;}
+
+	.hm-foos .hm-foos-con>a>.hov-bo{display:inline-block;width:62px;
+	height: 5px;
+	background-color:#a62624;position:relative;top:-21px;visibility:hidden;}
+	.hm-foos .hm-foos-con>a>.sel-bo{visibility:visible;}
+	.hm-foos .hm-foos-con>a:hover .hov-bo{
+		visibility:visible;
+	}
+
+</style>
+
+
+<div class="hm-foos hidden-xs">
+	<div class="hm-foos-con container text-center">
+		<a href="#"><span class="hov-boo">关于荟康</span><span class="hov-bo sel-bo"></span></a>
+		<a href="#"><span class="hov-boo">关于早康</span><span class="hov-bo"></span></a>
+		<a href="#"><span class="hov-boo">新闻中心</span><span class="hov-bo"></span></a>
+		<a href="#"><span class="hov-boo">官方微信</span><span class="hov-bo"></span></a>
+		<a href="#"><span class="hov-boo">官方微博</span><span class="hov-bo"></span></a>
+		<a href="#"><span class="hov-boo">联系我们</span><span class="hov-bo"></span></a>
+	</div>
+</div>
+<div class="text-center"><img src="img/wxx.png" /></div>
+<div class="text-center" style="margin-top:6px;color:#000;font-weight:bold;font-size:15px;">上海荟康健康管理有限公司</div>
+<div class="text-center" style="color:#000;font-weight:bold;font-size:15px;">地址：上海市虹口区四川北路88号星荟中心B座9楼908室</div>
+
+<div style="height:39px;width:100%;background:url('img/wxx1.png') no-repeat center center;margin-top:54px;"></div>
+
+
+<!-- 底部 -->
+
+
+<script type="text/javascript" src="js/placeholders.min.js"></script>
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script type="text/javascript" src="js/homejquery.js"></script>
+<script src="js/swiper.min.js"></script>
+
+</body>
+</html>
