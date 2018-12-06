@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>策划专题页</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="css/iconfont.css">
+  <style type="text/css">
+
+*,
+::before,
+::after {
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+.f_left {
+  float: left;
+}
+.f_right {
+  float: right;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+a:hover, a:focus{
+  text-decoration:none;
+}
+
+.clearfix::before,
+.clearfix::after {
+  content: "";
+  display: block;
+  visibility:hidden;
+  height: 0;
+  line-height: 0;
+  clear: both;
+}
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: block;
+  visibility:hidden;
+  height: 0;
+  line-height: 0;
+  clear: both;
+}
+/*样式重置*/
+
+.one1 .selectts:hover{
+  color: #f52f49;
+}
+
+
+img{border:none;}
+ul li{list-style:none;}
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color:#000;
+  margin: 0;
+  padding: 0;
+}
+/*PC端导航*/
+.one1{position:absolute;left:0;top:0;z-index:100000;width:100%;}
+.modd{position:fixed;height:100%;width:100%;z-index:99999;background:rgba(0,0,0,0.5);display:none;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#7f000000,endColorstr=#7f000000);}
+/*PC端导航*/
+/*移动端导航*/
+    @media screen and (max-width:992px){
+      /*导航*/
+    .home-dial{position:fixed;top:0;left:0;width:60%;height:100%;z-index:999999;background:#fff;overflow-y:scroll;-webkit-transition:1s;transition:1s;-webkit-transform:translateX(-100%);transform:translateX(-100%);opacity:0;}
+    .home-dial>.dial-con{width:100%;height:100%;background:#fff;}
+    /*导航*/
+
+    .dial-con{padding:0.2rem 0;}
+    .img2s{margin-top:0.2rem;}
+    .dial-con{margin-top:0.15rem;color: #393939;}
+    .dial-ul{margin-top:0.35rem;}
+    .dial-ul>.dial-uls>.selct-hm .dials{color:#fff;background:#000;}
+    .dial-ul>.dial-uls>li .dials{display:block;padding:10px 0;width:150px;border-radius:20px;color: #393939;background:#fff;text-align:center;margin:0 auto;}
+
+  .dial-ol{position:relative;padding-top:18px;display:none;}
+  .dial-ol:before{
+    content: '';
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 4px;
+    margin: 0 0 0 -10px;
+    border-width: 0 9px 16px 9px;
+    border-style: solid;
+    border-color: transparent transparent #171717 transparent;
+    }
+    .dial-ol>li>a{background: #171717;display:block;padding:10px 0;width:150px;color:#fff;text-align:center;margin:0 auto;
+    }
+    .dial-ol>li>a:hover{background:#000;}
+    .dial-ol>li:first-child a{border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    padding-top: 5px;}
+    .dial-ol>li:last-child a{border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding-top:5px;}
+    .hm-dias{display:table;}
+    .hm-dias>a>span{font-size:37px;padding:0 0.07rem;color:black;}
+    .hm-dias1{color: #393939;padding:0.03rem 0;margin-bottom:0.2rem;}
+  }
+
+.mobiles {
+  width: 100%;
+  height: 1.4rem;
+  background-color: rgba(0, 0, 0, 0.8);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#C8000000,endColorstr=#C8000000);
+  position: fixed;
+  top: 0;
+}
+.mobiles>.container{height:100%;}
+.mobiles>.container>.rowss{height:100%;}
+/*.mobiles>.container{position:relative;top:50%;-webkit-transform:translateY(50%);transform:translateY(-50%);}*/
+.ho-logo{position:relative;top:50%;-webkit-transform:translateY(50%);transform:translateY(-50%);}
+.mobiles .rowss .gf-menu {
+  height: 0.57rem;
+  width: 0.57rem;
+}
+.mobiles .rowss a{
+  display:block;
+}
+.mobiles .gf-tele {
+  margin-right: 0.4rem;
+
+}
+.mobiles .gf-teles {
+  height: 0.51rem;
+  width: 0.99rem;
+  margin-right: 0.4rem;
+}
+.mobiles .rowss .gf-logo {
+  width: 2.8rem;
+
+}
+.mobiles form {
+  position: relative;
+}
+.mobiles form .sea {
+  width: 4rem;
+  height: 0.72rem;
+  background-color: #ffffff;
+  border-radius: 0.05rem;
+  padding-left: 0.25rem;
+  border: none;
+  font-size: 0.27rem;
+  color: #000;
+
+}
+.mobiles form .search-icos {
+  position: absolute;
+  right: 0.27rem;
+  font-size: 0.29rem;
+  cursor: pointer;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+/*移动端导航*/
+  </style>
+<!--[if lte IE 9]>
+  <script src="js/html5shiv.min.js"></script>
+  <script src="js/respond.min.js"></script>
+<![endif]-->
+</head>
+<body>
+
+<!-- 模态框 -->
+<div class="modd"></div>
+<!-- 手机端弹出框 -->
+<div class="home-dial visible-xs visible-sm" data-names="dialgo">
+  <div class="dial-con">
+      <img src="images/logo2.png" class="center-block img-responsive" />
+      <img src="images/1422258610.jpg" class="center-block img-responsive img2s" />
+      <div class="text-center dial-con">扫一扫微信二维码&nbsp;<span class="glyphicon glyphicon-phone"></span></div>
+      <div class="dial-ul">
+        <ul class="dial-uls">
+          <li class="sel-static"><a href="home.html" class="dials">首页</a></li>
+          <li class="sel-static">
+            <a href="javascript:void(0)" class="dials">设计案例</a>
+            <ol class="dial-ol">
+              <li><a href="case.html">网页设计</a></li>
+              <li><a href="case.html">小程序</a></li>
+              <li><a href="case.html">VIS</a></li>
+              <li><a href="case.html">APP</a></li>
+              <li><a href="case.html">平面设计</a></li>
+            </ol>
+          </li>
+          <li class="sel-static selct-hm">
+            <a href="javascript:void(0)" class="dials">解决方案</a>
+            <ol class="dial-ol">
+              <li><a href="solve.html">网页设计</a></li>
+              <li><a href="solve.html">小程序</a></li>
+              <li><a href="solve.html">VIS</a></li>
+              <li><a href="solve.html">APP</a></li>
+              <li><a href="solve.html">平面设计</a></li>
+            </ol>
+          </li>
+          <li class="sel-static">
+            <a href="javascript:void(0)" class="dials">关于我们</a>
+            <ol class="dial-ol">
+              <li><a href="introduction.html">世阳简介</a></li>
+              <li><a href="elites.html">设计之道</a></li>
+              <li><a href="elites.html">精英战队</a></li>
+
+            </ol>
+          </li>
+          <li class="sel-static">
+            <a href="javascript:void(0)" class="dials">新闻中心</a>
+            <ol class="dial-ol">
+              <li><a href="company_list.html">企业动态</a></li>
+              <li><a href="industry_list.html">行业动态</a></li>
+            </ol>
+          </li>
+          <li class="sel-static"><a href="contact.html" class="dials">联系我们</a></li>
+          <li class="sel-static"><a href="home.html" class="dials">中国站</a></li>
+          <li class="sel-static"><a href="#" class="dials" title="还在建设中" data-toggle="tooltip" data-placement="top">英文站</a></li>
+
+        </ul>
+      </div>
+
+      <div class="center-block hm-dias">
+        <a target="_blank" href="tencent://Message/?Uin=282392329&websiteName=www.hbchryc.com=&Menu=yes"><span class="iconfont icon-qq"></span></a>
+        <a href="company_list.html"><span class="iconfont icon-xinlangweibo"></span></a>
+        <a href="javascript:void(0)"><span class="iconfont icon-weixin" data-toggle="tooltip" data-animation="true" title="<img src='images/1422258610.jpg' style='width:100px;padding:10px;'>" data-html="true" data-placement="top"></span></a>
+      </div>
+
+      <div class="text-center hm-dias1">高端定制,品牌设计</div>
+      <div class="text-center hm-dias1">技术支持 ：宜昌世阳</div>
+  </div>
+</div>
+
+
+<div class="one1">
+  <!-- 移动端导航 -->
+  <div class="visible-xs visible-sm mobiles">
+    <div class="container">
+        <div class="rowss clearfix">
+          
+            <div class="f_left ho-logo">
+              <a href="#"><img src="images/logo1.png" class="img-responsive gf-logo" alt="手机端logo" /></a>
+            </div>
+            <div class="f_right ho-logo">
+              <a href="tel:13545376862" class="f_left"><img src="images/phone.png" class="img-responsive gf-menu gf-tele" /></a>
+
+              <a href="#overlayPanel" class="f_left"><img src="images/menu.png" class="img-responsive gf-menu menu-click" /></a>
+            </div>
+        </div>
+    </div>
+  </div>
+</div>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script type="text/javascript">
+!(function(doc, win) {
+    var docEle = doc.documentElement,//获取html元素
+        event = "onorientationchange" in window ? "orientationchange" : "resize",//判断是屏幕旋转还是resize;
+        fn = function(){
+            var width = docEle.clientWidth;
+            if(width<=750){
+              width && (docEle.style.fontSize = 100 * (width / 750) + "px");
+
+            }else{
+              width && (docEle.style.fontSize = "100px");
+            }
+            // 设置html的fontSize，随着event的改变而改变。
+        };
+    win.addEventListener(event, fn, false);
+    doc.addEventListener("DOMContentLoaded", fn, false);
+}(document, window));
+
+
+
+  $('.menu-click').click(function(){
+    if($('.home-dial').data("names")=="dialgo"){
+      $('.modd').css('display','block');
+      $('.home-dial').css('opacity','1');
+      $('.home-dial').data("names","bb");
+      $('.home-dial').css("transform","translateX(0)");
+      $('.home-dial').css("WebkitTransform","translateX(0)");
+    }else{
+      $('.modd').css('display','none');
+      $('.home-dial').css('opacity','0');
+      $('.home-dial').data("names","dialgo");
+      $('.home-dial').css("transform","translateX(-100%)");
+      $('.home-dial').css("WebkitTransform","translateX(-100%)");
+    }
+  });
+  $('.modd').click(function(){
+    if($('.home-dial').data("names")=="bb"){
+      $('.home-dial').css('opacity','0');
+      $('.modd').css('display','none');
+      $('.home-dial').data("names","dialgo");
+      $('.home-dial').css("transform","translateX(-100%)");
+      $('.home-dial').css("WebkitTransform","translateX(-100%)");
+    }
+  })
+  $('.sel-static').hover(function(){
+    $('.sel-static').removeClass('selct-hm');
+    $('.sel-static').find('.dial-ol').css('display','none');
+
+
+    $(this).addClass('selct-hm');
+    $(this).find('.dial-ol').css("display",'block');
+  },function(){
+
+  })
+  $('[data-toggle="tooltip"]').tooltip();
+</script>
+</body>
+</html>
