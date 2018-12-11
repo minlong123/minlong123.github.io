@@ -63,7 +63,7 @@
 	.hm-navs .container{position:relative;}
 	.hm-navs .container .hm-navs-t{position:absolute;background-color: #a62624;height:102px;width:102px;border-bottom-left-radius:20px;border-bottom-right-radius:20px;line-height:102px;}
 	.hm-navs .container .hm-navs-tt{position:absolute;left:0;right:0;margin:auto;}
-	.hm-navs .container .hm-navs-tt ul .onenav{float:left;height:66px;padding-right:12px;padding-left:15px;position:relative;}
+	.hm-navs .container .hm-navs-tt ul .onenav{float:left;height:66px;padding-right:17px;padding-left:15px;position:relative;}
 	.hm-navs .container .hm-navs-tt ul .onenav .one-chld{color:#FFF;font-size: 23px;font-family: MFYueHei_Noncommercial-Regular;display:block;    height: 100%;
     line-height: 66px;}
 	.hm-navs .container .hm-navs-ttt{position:absolute;right:0;height:66px;}
