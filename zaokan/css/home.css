@@ -54,7 +54,8 @@
 	    .min-thrimte-cc{margin-top:10px!important;}
 	}
 
-    .min-thrimte{width:100%;background:#23244d;padding:34px 0 45px;position:relative;overflow: hidden;}
+    .min-thrimte{width:100%;padding:34px 0 45px;position:relative;overflow: hidden;
+    background: #eeeeee;}
 
 
     .min-thrimte .min-thrimte-f{font-size:46px;color: #ffffff;}
@@ -69,7 +70,8 @@
       max-width:100%;width:100%;display:block;
     }
     .min-thrimte .min-thrimte-c .min-thrimte-cc .min-thrimte-ccc .min-thrimte-cccc .min-thrimte-m{
-          width:100%;position:absolute;top:0;background:rgba(0,0,0,0.5);height:100%;color:#fff;font-size: 22px;display:none;
+          width:100%;position:absolute;top:0;height:100%;color:#fff;font-size: 22px;display:none;background-color: #a62624;
+    opacity: 0.8;
     }
     .min-thrimte .min-thrimte-c .min-thrimte-cc .min-thrimte-ccc .min-thrimte-cccc:hover .min-thrimte-m{
       display:block;
