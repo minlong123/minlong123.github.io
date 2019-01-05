@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>首页</title>
+	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+	<script type="text/javascript">
+    !(function(doc, win) {
+        var docEle = doc.documentElement,//获取html元素
+            event = "onorientationchange" in window ? "orientationchange" : "resize",//判断是屏幕旋转还是resize;
+            fn = function(){
+                var width = docEle.clientWidth;
+                if(width<=750){
+                  width && (docEle.style.fontSize = 100 * (width / 750) + "px");
+
+                }else{
+                  width && (docEle.style.fontSize = "100px");
+                }
+                // 设置html的fontSize，随着event的改变而改变。
+            };
+        win.addEventListener(event, fn, false);
+        doc.addEventListener("DOMContentLoaded", fn, false);
+    }(document, window));
+	</script>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+
+</head>
+<body>
+
+<style type="text/css">
+	.id-one{width:100%;height:auto;position:relative;}
+	.id-one>img{max-width:100%;display:block;width:100%;}
+	.id-two{height:2.72rem;width:100%;position:absolute;background:#FFF;top:5.14rem;
+	width:6.81rem;
+	height:5.72rem;
+	background-color: #ffffff;
+	border-top-left-radius:33px;
+	border-top-right-radius:33px;
+	left:0;right:0;margin:0 auto;
+	}
+	.id-two .id-two-d{	width:4.05rem;
+		height:0.65rem;
+		background-color: #0096ff;
+		border-radius:0.1rem;text-align:center;line-height:0.65rem;color:#FFF;margin:0 auto;
+		position:relative;top:-0.29rem;font-family: MicrosoftYaHei;
+	}
+	.id-two .id-two-dd{width:3.47rem;height:1.54rem;margin:0 auto;margin-top:0.25rem;background:url('images/redbg.png') no-repeat;background-size:3.47rem 1.54rem;display:table;}
+	.id-two .id-two-dd .id-two-id{display:table-cell;vertical-align:middle;color:#FFF;}
+	.id-two .id-two-dd .id-two-id .id-two-lt{float:left;padding-left:0.5rem;}
+	.id-two .id-two-dd .id-two-id .id-two-rt{float:right;padding-right:0.34rem;}
+	.id-two .id-two-dd .id-two-sp{vertical-align:middle;display:table-cell;}
+	.id-two .id-two-dd .id-two-rt{margin-top:0.15rem;font-size:0.26rem;}
+	.id-two .id-two-dd .id-two-lt>div:first-child+div{font-size:0.26rem;}
+	.id-two-lts{font-size:0.26rem;}
+	.id-two-ltss{font-size:0.62rem;}
+	.id-two-ddd{display:table;margin:0 auto;margin-top:0.6rem;}
+	.id-two-ddd>.id-thr-s{display:inline-block;width:1.51rem;
+	height: 1px;
+	background-color: #ffffff;
+	border: solid 1px #bebebe;position:relative;}
+	.id-two-ddd>.id-thr-ss:after{
+		content:"";
+		position:absolute;right:-2px;width:0.08rem;
+	height:0.08rem;border-radius:50%;
+	background-color:#bebebe;top:-2px;
+	}
+	.id-two-ddd>.id-thr-sss:before{
+		content:"";
+		position:absolute;left:-2px;width:0.08rem;
+	height:0.08rem;border-radius:50%;
+	background-color:#bebebe;top:-2px;
+	}
+	.id-two-ddd>.id-thr-ssss{position:relative;top:0.05rem;font-size:0.32rem;color: #333333;}
+	.id-two-dddd{display:table;margin:0 auto;text-align:left;margin-top:0.42rem;}
+	.id-two-ddddd{width:100%;text-align:center;margin-top:0.39rem;}
+	.id-two-ddddd>img{width:2.2rem;height:2.2rem;}
+
+
+</style>
+
+
+
+
+<div class="id-one">
+	<img src="images/hm.png" />
+</div>
+
+<div class="id-two">
+	<div class="id-two-d">LESSEL代金券</div>
+	<div class="id-two-dd">
+		<div class="id-two-id">
+			<span class="id-two-sp id-two-lt">
+				<div><span class="id-two-lts">￥</span><span class="id-two-ltss">100</span></div>
+				<div>满300可用</div>
+			</span>
+			<span class="id-two-sp id-two-rt">
+				<div>立即</div>
+				<div>领取</div>
+			</span>
+		</div>
+	</div>
+
+	<div class="id-two-ddd">
+		<span class="id-thr-s id-thr-ss"></span>
+		<span class="id-thr-ssss">&nbsp;&nbsp;使用规则&nbsp;&nbsp;</span>
+		<span class="id-thr-s id-thr-sss"></span>
+	</div>
+
+	<div class="id-two-dddd">
+		<div>1. 购买LESSEL莱斯欧产品满300元即可抵扣100元</div>
+		<div>2. 每月仅限使用一次</div>
+		<div>3. 扫描下方二维码即可使用</div>
+	</div>
+
+	<div class="id-two-ddddd"><img src="images/gfwx.png" /></div>
+
+</div>
+
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+</body>
+</html>
