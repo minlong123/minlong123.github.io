@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>首页</title>
+	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+	<script type="text/javascript">
+    !(function(doc, win) {
+        var docEle = doc.documentElement,//获取html元素
+            event = "onorientationchange" in window ? "orientationchange" : "resize",//判断是屏幕旋转还是resize;
+            fn = function(){
+                var width = docEle.clientWidth;
+                if(width<=750){
+                  width && (docEle.style.fontSize = 100 * (width / 750) + "px");
+
+                }else{
+                  width && (docEle.style.fontSize = "100px");
+                }
+                // 设置html的fontSize，随着event的改变而改变。
+            };
+        win.addEventListener(event, fn, false);
+        doc.addEventListener("DOMContentLoaded", fn, false);
+    }(document, window));
+	</script>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+
+</head>
+<body>
+
+<style type="text/css">
+
+	.id-one{width:100%;height:auto;position:relative;}
+	.id-one>img{max-width:100%;display:block;}
+</style>
+
+<div class="id-one">
+	<img src="images/hm.png" />
+</div>
+
+
+<style type="text/css">
+
+	.id-two{height:2.72rem;width:100%;position:relative;}
+	.id-two .id-two-d{}
+	.id-two .id-two-dd{width:3.47rem;height:1.54rem;background:url('images/redbg.png') no-repeat;}
+	.id-two .id-two-dd .id-two-sp{vertical-align:middle;display:table-cell;}
+	.id-two .id-two-ddd{}
+</style>
+<div class="id-two">
+	<div class="id-two-d">LESSEL代金券</div>
+
+	<div class="id-two-dd">
+		<span class="id-two-sp">
+			<div><span>￥</span><span>100</span></div>
+			<div>满300可用</div>
+		</span>
+
+		<span class="id-two-sp">
+			<div>立即</div>
+			<div>领取</div>
+		</span>
+	</div>
+	<div class="id-two-ddd"></div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+</body>
+</html>
