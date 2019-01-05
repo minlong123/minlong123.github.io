@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>经销商个人中心，生成代金卷页面</title>
+	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+	<script type="text/javascript">
+    !(function(doc, win) {
+        var docEle = doc.documentElement,//获取html元素
+            event = "onorientationchange" in window ? "orientationchange" : "resize",//判断是屏幕旋转还是resize;
+            fn = function(){
+                var width = docEle.clientWidth;
+                if(width<=750){
+                  width && (docEle.style.fontSize = 100 * (width / 750) + "px");
+
+                }else{
+                  width && (docEle.style.fontSize = "100px");
+                }
+                // 设置html的fontSize，随着event的改变而改变。
+            };
+        win.addEventListener(event, fn, false);
+        doc.addEventListener("DOMContentLoaded", fn, false);
+    }(document, window));
+	</script>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+
+</head>
+<body>
+
+<style type="text/css">
+
+	body{background:#F5F5F8;}
+	.id-one{width:100%;height:4.5rem;position:relative;background:#FFF;}
+	.id-one>img{max-width:100%;display:block;width:100%;}
+	.per-one{position:absolute;right:0.47rem;top:0.62rem;width:0.38rem;height:0.38rem;}
+
+	.per-two{width:6.96rem;height:2.4rem;background:url('images/hm1.png') no-repeat;background-size:6.96rem 2.4rem;position:absolute;top:1.64rem;left:0;right:0;margin:0 auto;}
+
+
+</style>
+
+
+
+
+<div class="id-one">
+	<img src="images/hm2.png" />
+</div>
+
+<img class="per-one" src="images/shezhi1.png" />
+
+
+<style type="text/css">
+	.per-two-d{display:table;padding-left:0.27rem;background:#FFF;}
+	.per-two-d>span{display:table-cell;vertical-align:middle;}
+	.per-two-d .per-two-dd{position:relative;top:-0.12rem;}
+	.per-two-d .per-two-ddd{padding-left:0.22rem;}
+	.per-two-d .per-two-ddd>div:first-child{font-size:0.3rem;letter-spacing:2px;color: #333;}
+	.per-two-d .per-two-ddd>div:first-child+div{font-size:0.24rem;color: #333;}
+	.per-two-dddd{margin-top:0.2rem;font-size:0.24rem;letter-spacing:1px;color: #333333;}
+	.per-two-dddd>span:first-child{float:left;margin-left:0.78rem;}
+	.per-two-dddd>span:first-child+span{float:right;margin-right:1.02rem;}
+	.per-two-dddd>span img{position:relative;top:0.1rem;}
+	.per-two-di{width:0.38rem;height:0.38rem;}
+	.per-two-dii{width:0.26rem;height:0.38rem;}
+
+</style>
+
+
+<div class="per-two">
+	<div class="per-two-d">
+		<span class="per-two-dd"><img src="images/1546703036.jpg" style="width:1rem;height:1rem;border-radius:50%;"></span>
+		<span class="per-two-ddd">
+			<div>糖果</div>
+			<div>骐级</div>
+		</span>
+	</div>
+
+	<div class="per-two-dddd">
+		<span><img class="per-two-di" src="images/bianji.png">&nbsp;&nbsp;已领取30张</span>
+		<span><img class="per-two-dii" src="images/shouji.png">&nbsp;&nbsp;剩余1470张</span>
+	</div>
+</div>
+
+
+
+<style type="text/css">
+	.per-thr{background:#FFF;padding-bottom:0.41rem;}
+	.per-thr .per-thr-o{display:inline-block;width:32%;text-align:center;}
+	.per-thr .per-thr-o img{width:0.94rem;height:0.94rem;
+	background-color: #7ecef4;
+	border-radius:20px;}
+	.per-thr .per-thr-o>span{display:block;}
+	.per-thr .per-thr-o .per-thr-oo{margin-top:0.15rem;}
+</style>
+
+
+<div class="per-thr">
+	<span class="per-thr-o">
+		<span><img src="images/hm3.png" /></span>
+		<span class="per-thr-oo">代金券生成</span>
+	</span>
+
+	<span class="per-thr-o">
+		<span><img src="images/hm4.png" /></span>
+		<span class="per-thr-oo">代金券管理</span>
+	</span>
+
+	<span class="per-thr-o">
+		<span><img src="images/hm5.png" /></span>
+		<span class="per-thr-oo">核销代金券</span>
+	</span>
+</div>
+
+<style type="text/css">
+	.per-fou{width:100%;background:#FFF;}
+	.per-fou>img{display:block;width:100%;max-width:100%;}
+</style>
+
+<div class="per-fou">
+	<img src="images/hm6.png">
+</div>
+
+<div class="per-fiv">
+	
+</div>
+
+
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+</body>
+</html>
